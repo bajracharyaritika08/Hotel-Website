@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: -y;
+}
+
+.viewport {
+    background-image: url("images/viewport-010.jpeg");
+    height: 730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 120px;
+    padding-left: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hotelname {
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    padding-top: 365px;
+    font-size: 35px;
+}
+
+.booknow-btn {
+    padding: 1%;
+    border-radius: 5px;
+    background-color: rgb(191, 192, 183);
+    color: #ffffff;
+    font-family: cursive;
+    width: 15%;
+}
+
+
+/* ICON BAR STARTS HERE */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 99999;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+
+/* NAVBAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    position: fixed;
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+}
+
+li {
+    float: right;
+    padding-top: 15px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(163, 241, 183);
+    transform: scale(1.05);
+}
+
+.navbar {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.downarrow {
+    color: white;
+}
+
+
+/* ABOUT US STARTS HERE! */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    text-align: justify;
+}
+
+.aboutus {
+    padding: 30px;
+    margin: 25px;
+}
+
+.aboutus-title {
+    color: rgba(155, 6, 6, 0.76);
+}
+
+.column1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.column2 {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    overflow: hidden;
+}
+
+.column3 {
+    text-align: center;
+}
+
+.column1 {
+    float: left;
+    width: 25.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column2,
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.fas fa-power-off {
+    height: 25px;
+}
+
+
+/* Here starts images and description*/
+
+#parent-pool {
+    position: relative;
+}
+
+.card-img {
+    height: 180px;
+    width: 100%;
+}
+
+.card-img {
+    background-image: url("images/pool01.JPG");
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 130px;
+}
+
+.card-text {
+    width: 400px;
+    height: 230px;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    position: absolute;
+    top: -150px;
+    left: 350px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.cardp01 {
+    color: orange;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardp02 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1-1 {
+    float: left;
+    width: 18.33%;
+    padding-left: 100px;
+    padding-top: 50px;
+    height: 200px;
+    letter-spacing: 2px;
+    color: rgba(155, 6, 6, 0.76);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.column2-1 {
+    float: left;
+    width: 55.33%;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.column3-1 {
+    float: left;
+    width: 23.33%;
+    padding: 40px;
+    height: 200px;
+    text-align: justify;
+}
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.view-room-button {
+    padding: 13px;
+    font-size: medium;
+    background-color: rgb(124, 124, 124);
+}
+
+.viewbtn {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Image Gallery */
+
+.gallery-txt {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    color: rgba(155, 6, 6, 0.76);
+}
+
+.text-accomodations {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.text-accomodations h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(155, 6, 6, 0.76);
+}
+
+.text-accomodations i {
+    color: rgb(107, 107, 107);
+}
+
+.container {
+    padding-left: 70px;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    border-radius: 15px;
+    height: 400px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    background-color: whitesmoke;
+}
+
+div.gallery img {
+    width: 100%;
+    padding: 15px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    color: blanchedalmond;
+    padding: 50px;
+    height: 350px;
+    background-color: rgb(3, 66, 77);
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.button_1 {
+    height: 38px;
+    background: rgb(223, 255, 137);
+    border: 0;
+    padding-left: 65px;
+    padding-right: 65px;
+    color: #000000;
+}
+
+#newsletter input[type="email"] {
+    padding: 14px;
+    height: 25px;
+    width: 250px;
+}
+
+.email {
+    padding: 11px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(1, 27, 26);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    padding-top: 5px;
+    font-size: larger;
+}
